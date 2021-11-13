@@ -1,228 +1,86 @@
-#include <iostream>
-#include <vector>
-#include <string>
-
+#include<iostream>
+#include "../include/File.hpp"
+#include "../include/Player.hpp"
+#include "../include/Forca.hpp"
 using namespace std;
 
-using String = std::string;
-
-bool verificaPalavra(char letra, string palavra)
-{
-  for(int i = 0; i<palavra.size(); i++)
-  {
-    if( letra == palavra[i])
-    {
-      return true;
-    }
-  }
-  return false;
-}
-
-
-int geraNivel()
-{
-  int nivel;
-  cout<<"SELECIONE UM NÍVEL:"<<endl;
-  cout<<"Digite [1] para -> FÁCIL"<<endl;
-  cout<<"Digite [2] para -> MÉDIO"<<endl;
-  cout<<"Digite [3] para -> DIFÍCIL"<<endl;
-//fazer virificação aqui da entrada
-  cin >> nivel;
-  return nivel;
-}
-
-string geraPalavra(int nivel)
-{
-  bool facil = nivel == 1;
-  bool medio = nivel == 2;
-  bool dificil = nivel == 3;
-  string palavra;
-  if(facil)
-  {
-    palavra = "LUFFY";
-  }
-  else if(medio)
-  {
-    palavra = "JINBE";
-  }
-  else if(dificil)
-  {
-    palavra = "SHIRAHOSHI";
-  }
-  cout<<palavra<<endl;
-  return palavra;
-}
-
-int validaChuteErrado(int t)
-{
-  if(t==5)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;  
-  }
-  if(t==4)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;   
-  }
-  if(t==3)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |      /|" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;   
-  }
-  if(t==2)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |      /|\\" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;  
-  }
-  if(t==1)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |      /|\\" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |      / "<<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;  
-  }
-  if(t==0)
-  {
-     cout<<"  _______"<<endl;
-     cout<<" |/      |" <<endl;     
-     cout<<" |      (_)" <<endl;     
-     cout<<" |      /|\\" <<endl;     
-     cout<<" |       |" <<endl;     
-     cout<<" |      / \\"<<endl;     
-     cout<<" |" <<endl;     
-     cout<<" |" <<endl;     
-     cout<<"_|__________ \n" <<endl;  
-  }
+int main(int argc, char *argv[]){
   
-  return 0;
-}
-
-int game(string palavra)
-{ 
+  std::string name = "fulaninho de tal";
   
-  int tentativa = 6;
-  int score = 0;
-  bool nao_ganhou = true;
-  bool nao_enforcou = tentativa <= 6;
+  //criando objeto do jogador e objetos dos arquivos
+  Player player;
+  File f_scores;
+  File f_words;
 
-  while(nao_ganhou && nao_enforcou)
+  //atribuindo os parametros passados no mais para uma variavel string que sera usada como paths
+  std::string pathWordsFile = argv[1];
+  std::string pathScoreFile = argv[2];
+  //carregando os arquivos e os transformando cada um em um vector de strings
+  std::vector s_file_words = f_words.loadFile(pathWordsFile);
+  std::vector s_file_scores = f_scores.loadFile(pathScoreFile);
+  //validando os arquivos 
+  std::cout<<">>> Lendo arquivo de palavras ["<<pathWordsFile<<"] e scores ["<<pathScoreFile<<"], por favor aguarde.."<<std::endl;
+  
+  bool fwords_is_valid = f_words.validateWordsFile(s_file_words);
+  bool fscores_is_valid = f_words.validateWordsFile(s_file_scores);
+
+  if(fwords_is_valid || fscores_is_valid)
   {
-    char hint;
-    cin >> hint;
-    bool acerto = verificaPalavra(hint, palavra);
-    if(acerto)
-    {
-      score++;
-      validaChuteCorreto(palavra, hint);
-    }
-    else
-    {
-      score--;
-      tentativa--;
-      validaChuteErrado(tentativa);
-    }
-    
+    std::cout<<"--------------------------------------------------------------------"<<std::endl;
+    std::cout<<">>> Arquivos OK!"<<std::endl;
+    std::cout<<"--------------------------------------------------------------------"<<std::endl;
+    std::cout<<"Bem-vindx ao Jogo da Forca!"<<endl;
   }
-  return 0;
-}
-
-
-
-
-int main(){
-  
-  cout<<"------------------------------------"<<endl;
-  cout<<"---- BEM-VINDX AO JOGO DA FORCA ----"<<endl;
-  cout<<"------------------------------------"<<endl;
-  
-
-   cout<<"  _______"<<endl;
-   cout<<" |/      |" <<endl;     
-   cout<<" | " <<endl;     
-   cout<<" |" <<endl;     
-   cout<<" |" <<endl;     
-   cout<<" |" <<endl;     
-   cout<<" |" <<endl;     
-   cout<<" |" <<endl;     
-   cout<<"_|__________ \n" <<endl;     
+  else
+  {
+    std::cout<<">>> Arquivos inválidos!"<<std::endl;
+    return 0;
+  }
 
   bool loop = true;
 
-  while(loop == true)
+  while(loop)
   {
-    cout<<"SELECIONE UMA OPÇÃO:"<<endl;
-    cout<<"Digite [1] para -> INICIAR"<<endl;
-    cout<<"Digite [2] para -> VER SCORES ANTERIORES"<<endl;
-    cout<<"Digite [3] para -> SAIR DO JOGO"<<endl;
+    std::cout<<"Por favor, escolha uma das opções abaixo: "<<std::endl;
+    std::cout<<"1 -> Iniciar Jogo"<<std::endl;
+    std::cout<<"2 -> Ver scores anteriores"<<std::endl;
+    std::cout<<"3 -> Sair do jogo"<<std::endl;
+    std::cout<<"Sua escolha: ";
+    int cmd;
+    std::cin>>cmd;
 
-    int comando;
-    cin >> comando;
-
-    bool iniciar = comando == 1;
-    bool scores = comando == 2;
-    bool sair = comando == 3;
+    bool start = cmd == 1;
+    bool scores = cmd == 2;
+    bool exit = cmd == 3;
 
     if(scores)
     {
-      cout << " ..." << endl;
-      // puxa uma lista de scores e imprime
-      //mostra menu
+      f_scores.getScores();
     }
-    else if(iniciar)
+    else if(start)
     {
-      cout << "-------------------------------"<<endl;
-      cout << "------- Vamos começar! --------"<<endl;
-      cout << "-------------------------------"<<endl;
-      int nivel = geraNivel();
-      string palavra = geraPalavra(nivel);
-      game(palavra);
-      //mostra menu
+      std::cout << "Vamos iniciar o jogo!\nPor favor, escolha o nível de dificuldade: "<<std::endl;
+      std::cout<<"1 -> Fácil"<<std::endl;
+      std::cout<<"2 -> Médio"<<std::endl;
+      std::cout<<"3 -> Difícil"<<std::endl;
+      std::cout<<"Sua escolha: ";
+      int d;
+      std::cin >> d;
+      Forca forca;
+      forca.setLevel(d);
+
     }
-    else if(sair)
+    else if(exit)
     {
-      cout << "Fim de jogo."<<endl;
+      std::cout << "Fim de jogo."<<std::endl;
       return 0;
     }
     else
     {
-      cout << "Ops! Comando inválido.."<<endl;
+      std::cout << "Ops! Comando inválido..."<<std::endl;
     }
   }
-    
 
-    return 0;
+  return 0;
 }
