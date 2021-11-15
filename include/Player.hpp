@@ -8,23 +8,30 @@
 using namespace std;
 
 class Player
-{
-
-        
+{       
         public:
-                std::string level;
-                std::string name;
-                std::vector<std::string> words;
-                int score;
-                //Member functions
 
-                Player();//Parameter Construtor
+                std::string level;
+
+                int lv;
+
+                std::string name;
+
+                std::vector<std::string> words;
+
+                int score = 1;
+
+                Player();
+
+                void setLevel(int l);
+
+                std::string getName();
 
                 void setName(std::string n);
-                std::string getName(); 
 
-                void setScore(int s);
-                int getScore();
+                void setScore(int scr);
+
+                void setWords(std::vector<std::string> w);
 };
 
 #endif
