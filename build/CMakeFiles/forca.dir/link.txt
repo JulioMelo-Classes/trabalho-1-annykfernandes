@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/forca.dir/src/File.cpp.o CMakeFiles/forca.dir/src/Forca.cpp.o CMakeFiles/forca.dir/src/main.cpp.o CMakeFiles/forca.dir/src/Player.cpp.o -o forca 
