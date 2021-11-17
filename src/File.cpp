@@ -128,3 +128,8 @@ std::vector< std::pair<std::string, int> > File::generate_pairs(std::vector<std:
     
     return pair_word_number;
 }
+
+
+
+
+

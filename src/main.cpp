@@ -45,11 +45,11 @@ int main(int argc, char *argv[]){
 
   player.setName(name);
 
-  int player_score;
+  int player_score= 0;
 
   std::vector<std::string> player_words = {""};
 
-  while(loop)
+  while(loop == true)
   {
     std::cout<<"Por favor, escolha uma das opções abaixo: "<<std::endl;
     std::cout<<"1 -> Iniciar Jogo"<<std::endl;
@@ -81,6 +81,7 @@ int main(int argc, char *argv[]){
       int d;
       std::cin >> d;
       forca.setLevel(d);
+      player.setLevel(d);
 
       bool nao_ganhou = true;
       bool nao_enforcou = true;
@@ -100,6 +101,7 @@ int main(int argc, char *argv[]){
 
         if(nao_enforcou == false)
         { 
+          std::cout<<indx<<std::endl;
           player.setScore(indx);
           player.setWords(player_words);
           break;
@@ -127,6 +129,8 @@ int main(int argc, char *argv[]){
           { 
             player.setScore(indx);
             player.setWords(player_words);
+            loop == false;
+            nao_desistiu==false;
             break;
           }
         }
@@ -156,6 +160,8 @@ int main(int argc, char *argv[]){
       std::cout << "Ops! Comando inválido..."<<std::endl;
     }
   }
+
+  std::cout<<"Fim de jogo"<<std::endl;
 
   return 0;
 }

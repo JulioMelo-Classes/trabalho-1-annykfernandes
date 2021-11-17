@@ -12,6 +12,7 @@ Player::Player()
     level = "Fácil";
     name = "fulaninho";
     words.push_back("");
+    lv = 5;
 }
 
 void Player::setLevel(int l)
@@ -32,21 +33,12 @@ void Player::setLevel(int l)
         level = "Difícil";
         lv = 20;
     }
-
-    cout<<"Nível: "<< level << endl;
-
 }
 
 void Player::setName(std::string n)
 {
     name = n;
-    cout<<"Nome: "<< name << endl;
 }
-
-std::string Player::getName()
-{   
-    return name;
-} 
 
 void Player::setScore(int scr)
 {   
