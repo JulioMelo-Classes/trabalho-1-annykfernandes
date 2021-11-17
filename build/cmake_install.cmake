@@ -1,4 +1,4 @@
-# Install script for directory: /home/nico/Downloads/trabalho-1-annykfernandes-master
+# Install script for directory: /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nico/Downloads/trabalho-1-annykfernandes-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

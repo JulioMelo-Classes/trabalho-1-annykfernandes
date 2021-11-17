@@ -1,7 +1,7 @@
 CMakeFiles/forca.dir/src/Player.cpp.o: \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Player.cpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Player.cpp \
  /usr/include/stdc-predef.h \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/../include/Player.hpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Player.hpp \
  /usr/include/c++/11.1.0/iostream \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \

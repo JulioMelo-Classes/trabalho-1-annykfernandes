@@ -1,5 +1,5 @@
 CMakeFiles/forca.dir/src/main.cpp.o: \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/main.cpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11.1.0/iostream \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -128,7 +128,7 @@ CMakeFiles/forca.dir/src/main.cpp.o: \
  /usr/include/c++/11.1.0/bits/basic_ios.tcc \
  /usr/include/c++/11.1.0/bits/ostream.tcc /usr/include/c++/11.1.0/istream \
  /usr/include/c++/11.1.0/bits/istream.tcc \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/../include/File.hpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/File.hpp \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.1.0/bits/stl_vector.h \
@@ -203,5 +203,5 @@ CMakeFiles/forca.dir/src/main.cpp.o: \
  /usr/include/c++/11.1.0/bits/regex.tcc \
  /usr/include/c++/11.1.0/bits/regex_executor.h \
  /usr/include/c++/11.1.0/bits/regex_executor.tcc \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/../include/Player.hpp \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/../include/Forca.hpp
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Player.hpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Forca.hpp

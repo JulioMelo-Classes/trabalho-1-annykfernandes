@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nico/Downloads/trabalho-1-annykfernandes-master/./include
+CXX_INCLUDES = -I/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/./include
 
 CXX_FLAGS = -std=gnu++17
 

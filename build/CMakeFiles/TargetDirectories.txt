@@ -1,3 +1,3 @@
-/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles/rebuild_cache.dir
-/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles/edit_cache.dir
-/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles/forca.dir
+/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/rebuild_cache.dir
+/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/edit_cache.dir
+/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/forca.dir

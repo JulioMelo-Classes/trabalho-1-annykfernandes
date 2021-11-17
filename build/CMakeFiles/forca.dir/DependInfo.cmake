@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nico/Downloads/trabalho-1-annykfernandes-master/src/File.cpp" "CMakeFiles/forca.dir/src/File.cpp.o" "gcc" "CMakeFiles/forca.dir/src/File.cpp.o.d"
-  "/home/nico/Downloads/trabalho-1-annykfernandes-master/src/Forca.cpp" "CMakeFiles/forca.dir/src/Forca.cpp.o" "gcc" "CMakeFiles/forca.dir/src/Forca.cpp.o.d"
-  "/home/nico/Downloads/trabalho-1-annykfernandes-master/src/Player.cpp" "CMakeFiles/forca.dir/src/Player.cpp.o" "gcc" "CMakeFiles/forca.dir/src/Player.cpp.o.d"
-  "/home/nico/Downloads/trabalho-1-annykfernandes-master/src/main.cpp" "CMakeFiles/forca.dir/src/main.cpp.o" "gcc" "CMakeFiles/forca.dir/src/main.cpp.o.d"
+  "/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/File.cpp" "CMakeFiles/forca.dir/src/File.cpp.o" "gcc" "CMakeFiles/forca.dir/src/File.cpp.o.d"
+  "/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Forca.cpp" "CMakeFiles/forca.dir/src/Forca.cpp.o" "gcc" "CMakeFiles/forca.dir/src/Forca.cpp.o.d"
+  "/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Player.cpp" "CMakeFiles/forca.dir/src/Player.cpp.o" "gcc" "CMakeFiles/forca.dir/src/Player.cpp.o.d"
+  "/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/main.cpp" "CMakeFiles/forca.dir/src/main.cpp.o" "gcc" "CMakeFiles/forca.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

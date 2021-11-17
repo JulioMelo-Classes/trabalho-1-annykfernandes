@@ -1,7 +1,7 @@
 CMakeFiles/forca.dir/src/Forca.cpp.o: \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Forca.cpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Forca.cpp \
  /usr/include/stdc-predef.h \
- /home/nico/Downloads/trabalho-1-annykfernandes-master/src/../include/Forca.hpp \
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Forca.hpp \
  /usr/include/c++/11.1.0/iostream \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \

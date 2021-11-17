@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nico/Downloads/trabalho-1-annykfernandes-master
+CMAKE_SOURCE_DIR = /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nico/Downloads/trabalho-1-annykfernandes-master/build
+CMAKE_BINARY_DIR = /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/forca.dir/clean
 CMakeFiles/forca.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forca.dir/build.make CMakeFiles/forca.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forca.dir/build.make CMakeFiles/forca.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target forca"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target forca"
 .PHONY : CMakeFiles/forca.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/forca.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/forca.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles 0
 .PHONY : CMakeFiles/forca.dir/rule
 
 # Convenience name for target.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nico/Downloads/trabalho-1-annykfernandes-master
+CMAKE_SOURCE_DIR = /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nico/Downloads/trabalho-1-annykfernandes-master/build
+CMAKE_BINARY_DIR = /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/forca.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/forca.dir/flags.make
 CMakeFiles/forca.dir/src/File.cpp.o: CMakeFiles/forca.dir/flags.make
 CMakeFiles/forca.dir/src/File.cpp.o: ../src/File.cpp
 CMakeFiles/forca.dir/src/File.cpp.o: CMakeFiles/forca.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forca.dir/src/File.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/File.cpp.o -MF CMakeFiles/forca.dir/src/File.cpp.o.d -o CMakeFiles/forca.dir/src/File.cpp.o -c /home/nico/Downloads/trabalho-1-annykfernandes-master/src/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forca.dir/src/File.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/File.cpp.o -MF CMakeFiles/forca.dir/src/File.cpp.o.d -o CMakeFiles/forca.dir/src/File.cpp.o -c /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/File.cpp
 
 CMakeFiles/forca.dir/src/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/forca.dir/src/File.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/Downloads/trabalho-1-annykfernandes-master/src/File.cpp > CMakeFiles/forca.dir/src/File.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/File.cpp > CMakeFiles/forca.dir/src/File.cpp.i
 
 CMakeFiles/forca.dir/src/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/forca.dir/src/File.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/Downloads/trabalho-1-annykfernandes-master/src/File.cpp -o CMakeFiles/forca.dir/src/File.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/File.cpp -o CMakeFiles/forca.dir/src/File.cpp.s
 
 CMakeFiles/forca.dir/src/Forca.cpp.o: CMakeFiles/forca.dir/flags.make
 CMakeFiles/forca.dir/src/Forca.cpp.o: ../src/Forca.cpp
 CMakeFiles/forca.dir/src/Forca.cpp.o: CMakeFiles/forca.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forca.dir/src/Forca.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/Forca.cpp.o -MF CMakeFiles/forca.dir/src/Forca.cpp.o.d -o CMakeFiles/forca.dir/src/Forca.cpp.o -c /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Forca.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forca.dir/src/Forca.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/Forca.cpp.o -MF CMakeFiles/forca.dir/src/Forca.cpp.o.d -o CMakeFiles/forca.dir/src/Forca.cpp.o -c /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Forca.cpp
 
 CMakeFiles/forca.dir/src/Forca.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/forca.dir/src/Forca.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Forca.cpp > CMakeFiles/forca.dir/src/Forca.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Forca.cpp > CMakeFiles/forca.dir/src/Forca.cpp.i
 
 CMakeFiles/forca.dir/src/Forca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/forca.dir/src/Forca.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Forca.cpp -o CMakeFiles/forca.dir/src/Forca.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Forca.cpp -o CMakeFiles/forca.dir/src/Forca.cpp.s
 
 CMakeFiles/forca.dir/src/main.cpp.o: CMakeFiles/forca.dir/flags.make
 CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/forca.dir/src/main.cpp.o: CMakeFiles/forca.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/forca.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/main.cpp.o -MF CMakeFiles/forca.dir/src/main.cpp.o.d -o CMakeFiles/forca.dir/src/main.cpp.o -c /home/nico/Downloads/trabalho-1-annykfernandes-master/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/forca.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/main.cpp.o -MF CMakeFiles/forca.dir/src/main.cpp.o.d -o CMakeFiles/forca.dir/src/main.cpp.o -c /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/main.cpp
 
 CMakeFiles/forca.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/forca.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/Downloads/trabalho-1-annykfernandes-master/src/main.cpp > CMakeFiles/forca.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/main.cpp > CMakeFiles/forca.dir/src/main.cpp.i
 
 CMakeFiles/forca.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/forca.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/Downloads/trabalho-1-annykfernandes-master/src/main.cpp -o CMakeFiles/forca.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/main.cpp -o CMakeFiles/forca.dir/src/main.cpp.s
 
 CMakeFiles/forca.dir/src/Player.cpp.o: CMakeFiles/forca.dir/flags.make
 CMakeFiles/forca.dir/src/Player.cpp.o: ../src/Player.cpp
 CMakeFiles/forca.dir/src/Player.cpp.o: CMakeFiles/forca.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/forca.dir/src/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/Player.cpp.o -MF CMakeFiles/forca.dir/src/Player.cpp.o.d -o CMakeFiles/forca.dir/src/Player.cpp.o -c /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/forca.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forca.dir/src/Player.cpp.o -MF CMakeFiles/forca.dir/src/Player.cpp.o.d -o CMakeFiles/forca.dir/src/Player.cpp.o -c /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Player.cpp
 
 CMakeFiles/forca.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/forca.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Player.cpp > CMakeFiles/forca.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Player.cpp > CMakeFiles/forca.dir/src/Player.cpp.i
 
 CMakeFiles/forca.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/forca.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/Downloads/trabalho-1-annykfernandes-master/src/Player.cpp -o CMakeFiles/forca.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/Player.cpp -o CMakeFiles/forca.dir/src/Player.cpp.s
 
 # Object files for target forca
 forca_OBJECTS = \
@@ -141,7 +141,7 @@ forca: CMakeFiles/forca.dir/src/main.cpp.o
 forca: CMakeFiles/forca.dir/src/Player.cpp.o
 forca: CMakeFiles/forca.dir/build.make
 forca: CMakeFiles/forca.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable forca"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable forca"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forca.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/forca.dir/clean:
 .PHONY : CMakeFiles/forca.dir/clean
 
 CMakeFiles/forca.dir/depend:
-	cd /home/nico/Downloads/trabalho-1-annykfernandes-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nico/Downloads/trabalho-1-annykfernandes-master /home/nico/Downloads/trabalho-1-annykfernandes-master /home/nico/Downloads/trabalho-1-annykfernandes-master/build /home/nico/Downloads/trabalho-1-annykfernandes-master/build /home/nico/Downloads/trabalho-1-annykfernandes-master/build/CMakeFiles/forca.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/forca.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/forca.dir/depend
 
