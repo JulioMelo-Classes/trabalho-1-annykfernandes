@@ -45,7 +45,7 @@ int main(int argc, char *argv[]){
 
   player.setName(name);
 
-  int player_score= 0;
+  int player_score = 0;
 
   std::vector<std::string> player_words = {""};
 
@@ -96,38 +96,39 @@ int main(int argc, char *argv[]){
         int t = forca.status_tentativas();
         forca.verify_n_draw(t);
 
-        nao_ganhou = forca.nao_ganhou();
         nao_enforcou = forca.nao_enforcou();
-
         if(nao_enforcou == false)
         { 
-          std::cout<<indx<<std::endl;
-          player.setScore(indx);
+          player.update_score(0);
           player.setWords(player_words);
+          player.setScore();
           break;
         }
 
+        nao_ganhou = forca.nao_ganhou();
         if(nao_ganhou == false)
         {
           player_words.push_back(palavra_atual);
-          nao_desistiu = forca.nao_desistiu();
 
+          nao_desistiu = forca.nao_desistiu();
           if(nao_desistiu)
           {
             nao_ganhou = forca.update_n_ganou();
             nao_enforcou = forca.update_n_enforcou();
             nao_desistiu = forca.update_n_desistiu();
-            int new_t = forca.status_tentativas();
-            forca.verify_n_draw(new_t);
+            player.update_score(1);
+            forca.verify_n_draw(6);
+
             indx++;
-            std::string proxima_palavra = forca.get_palavra_atual(indx);
+            std::string proxima_palavra = forca.get_palavra_atual(indx); //fazer um shuffle aqui sempre que for chamada
             palavra_atual = proxima_palavra;
             forca.set_palavra_atual(palavra_atual);
             std::cout<<"Vamos para a próxima palavra então!"<<std::endl;
           }
           else
-          { 
-            player.setScore(indx);
+          {  
+            player.update_score(1);
+            player.setScore();
             player.setWords(player_words);
             loop == false;
             nao_desistiu==false;

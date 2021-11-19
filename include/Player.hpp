@@ -19,7 +19,7 @@ class Player
 
                 std::vector<std::string> words;
 
-                int score = 1;
+                int score = 0;
 
                 Player();
 
@@ -29,9 +29,12 @@ class Player
 
                 void setName(std::string n);
 
-                void setScore(int scr);
 
                 void setWords(std::vector<std::string> w);
+
+                void setScore();
+                
+                void update_score(int point);
 };
 
 #endif

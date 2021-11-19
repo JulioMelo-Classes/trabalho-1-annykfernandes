@@ -243,7 +243,16 @@ bool Forca::update_n_ganou()
 
 bool Forca::nao_enforcou()
 {
+    if(tentativas_restantes == 0)
+    {
+        n_enforcou = false;
+    }
+    else
+    {
+        n_enforcou = true;
+    }
     return n_enforcou;
+
 }
 
 bool Forca::update_n_enforcou()

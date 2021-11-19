@@ -4,7 +4,7 @@ std::string level;
 int lv;
 std::string name;
 std::vector<std::string> words;
-int score = 1;
+int score = 0;
 
 
 Player::Player() 
@@ -40,9 +40,9 @@ void Player::setName(std::string n)
     name = n;
 }
 
-void Player::setScore(int scr)
+void Player::setScore()
 {   
-    score = scr * lv;
+    score = (score * lv);
     cout<<"Score final: "<< score << endl;
 }
 
@@ -53,5 +53,13 @@ void Player::setWords(std::vector<std::string> w)
     for(int i = 0; i < words.size(); i++)
     {
         cout<<words[i]<<endl;
+    }
+}
+
+void Player::update_score(int point)
+{
+    if(point == 1)
+    {
+        score++;
     }
 }
