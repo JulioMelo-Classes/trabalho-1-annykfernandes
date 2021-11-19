@@ -137,4 +137,29 @@ CMakeFiles/forca.dir/src/Player.cpp.o: \
  /usr/include/c++/11.1.0/bits/codecvt.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/11.1.0/bits/fstream.tcc
+ /usr/include/c++/11.1.0/bits/fstream.tcc \
+ /usr/include/c++/11.1.0/algorithm /usr/include/c++/11.1.0/utility \
+ /usr/include/c++/11.1.0/bits/stl_relops.h \
+ /usr/include/c++/11.1.0/bits/stl_algo.h \
+ /usr/include/c++/11.1.0/bits/algorithmfwd.h \
+ /usr/include/c++/11.1.0/bits/stl_heap.h \
+ /usr/include/c++/11.1.0/bits/stl_tempbuf.h \
+ /usr/include/c++/11.1.0/bits/uniform_int_dist.h \
+ /usr/include/c++/11.1.0/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11.1.0/functional /usr/include/c++/11.1.0/tuple \
+ /usr/include/c++/11.1.0/array \
+ /usr/include/c++/11.1.0/bits/uses_allocator.h \
+ /usr/include/c++/11.1.0/bits/invoke.h \
+ /usr/include/c++/11.1.0/bits/refwrap.h \
+ /usr/include/c++/11.1.0/bits/std_function.h \
+ /usr/include/c++/11.1.0/unordered_map \
+ /usr/include/c++/11.1.0/ext/aligned_buffer.h \
+ /usr/include/c++/11.1.0/bits/hashtable.h \
+ /usr/include/c++/11.1.0/bits/hashtable_policy.h \
+ /usr/include/c++/11.1.0/bits/node_handle.h \
+ /usr/include/c++/11.1.0/bits/unordered_map.h \
+ /usr/include/c++/11.1.0/bits/erase_if.h \
+ /usr/include/c++/11.1.0/pstl/execution_defs.h \
+ /usr/include/c++/11.1.0/sstream /usr/include/c++/11.1.0/bits/sstream.tcc \
+ /usr/include/c++/11.1.0/iterator \
+ /usr/include/c++/11.1.0/bits/stream_iterator.h

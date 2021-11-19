@@ -89,6 +89,7 @@ int main(int argc, char *argv[]){
 
       int indx = 1;
 
+      forca.shuffle_words();
       std::string palavra_atual = forca.get_palavra_atual(indx);
       forca.set_palavra_atual(palavra_atual);
       while(nao_enforcou && nao_desistiu && nao_ganhou)
@@ -100,14 +101,19 @@ int main(int argc, char *argv[]){
         if(nao_enforcou == false)
         { 
           player.update_score(0);
-          player.setWords(player_words);
+          forca.shuffle_words();
+          forca.reset_status_palavra();
           player.setScore();
+          player.setWords(player_words);
+          std::string final_data = player.final_data();
+          f_scores.writeUserData(final_data, pathScoreFile);
           break;
         }
 
         nao_ganhou = forca.nao_ganhou();
         if(nao_ganhou == false)
         {
+          forca.status_palavra();
           player_words.push_back(palavra_atual);
 
           nao_desistiu = forca.nao_desistiu();
@@ -116,8 +122,11 @@ int main(int argc, char *argv[]){
             nao_ganhou = forca.update_n_ganou();
             nao_enforcou = forca.update_n_enforcou();
             nao_desistiu = forca.update_n_desistiu();
+
             player.update_score(1);
             forca.verify_n_draw(6);
+            forca.reset_status_palavra();
+            forca.shuffle_words();
 
             indx++;
             std::string proxima_palavra = forca.get_palavra_atual(indx); //fazer um shuffle aqui sempre que for chamada
@@ -129,7 +138,15 @@ int main(int argc, char *argv[]){
           {  
             player.update_score(1);
             player.setScore();
+            forca.shuffle_words();
             player.setWords(player_words);
+            forca.reset_status_palavra();
+
+            std::string final_data = player.final_data();
+            f_scores.writeUserData(final_data, pathScoreFile);
+
+
+
             loop == false;
             nao_desistiu==false;
             break;

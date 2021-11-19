@@ -5,19 +5,22 @@
 #include <vector>
 #include<string>
 #include <fstream>
+#include <algorithm>
+#include <sstream>
+#include <iterator>
 using namespace std;
 
 class Player
 {       
         public:
 
-                std::string level;
+                std::string level= "Fácil";
 
                 int lv;
 
                 std::string name;
 
-                std::vector<std::string> words;
+                std::vector<std::string> words_v;
 
                 int score = 0;
 
@@ -33,8 +36,10 @@ class Player
                 void setWords(std::vector<std::string> w);
 
                 void setScore();
-                
+
                 void update_score(int point);
+
+                std::string final_data();
 };
 
 #endif

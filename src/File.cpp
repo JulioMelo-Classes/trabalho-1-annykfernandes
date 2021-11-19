@@ -8,6 +8,20 @@ File::File()
     file_lines.push_back("");
 }
 
+void File::writeUserData(std::string user_data, std::string path_data)
+{   
+    std::fstream my_file;
+    
+    my_file.open(path_data, ios::out);
+
+    if(my_file.is_open())
+    {
+        my_file << user_data << '\n';
+    }
+
+
+}
+
 std::vector<std::string> File::loadFile(std::string path)
 {   
     ifstream file(path);

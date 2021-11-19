@@ -204,4 +204,29 @@ CMakeFiles/forca.dir/src/main.cpp.o: \
  /usr/include/c++/11.1.0/bits/regex_executor.h \
  /usr/include/c++/11.1.0/bits/regex_executor.tcc \
  /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Player.hpp \
- /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Forca.hpp
+ /home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/src/../include/Forca.hpp \
+ /usr/include/c++/11.1.0/random /usr/include/c++/11.1.0/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/11.1.0/bits/specfun.h \
+ /usr/include/c++/11.1.0/limits /usr/include/c++/11.1.0/tr1/gamma.tcc \
+ /usr/include/c++/11.1.0/tr1/special_function_util.h \
+ /usr/include/c++/11.1.0/tr1/bessel_function.tcc \
+ /usr/include/c++/11.1.0/tr1/beta_function.tcc \
+ /usr/include/c++/11.1.0/tr1/ell_integral.tcc \
+ /usr/include/c++/11.1.0/tr1/exp_integral.tcc \
+ /usr/include/c++/11.1.0/tr1/hypergeometric.tcc \
+ /usr/include/c++/11.1.0/tr1/legendre_function.tcc \
+ /usr/include/c++/11.1.0/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11.1.0/tr1/poly_hermite.tcc \
+ /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc \
+ /usr/include/c++/11.1.0/bits/random.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/11.1.0/bits/random.tcc /usr/include/c++/11.1.0/numeric \
+ /usr/include/c++/11.1.0/bits/stl_numeric.h \
+ /usr/include/c++/11.1.0/pstl/glue_numeric_defs.h

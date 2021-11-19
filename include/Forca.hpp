@@ -6,6 +6,8 @@
 #include<string>
 #include <fstream>
 #include <map>
+#include <algorithm>
+#include <random>
 
 using namespace std;
  
@@ -129,6 +131,10 @@ class Forca {
         void reset_tentativas();
 
         void verify_n_draw(int s_t);
+
+        void reset_status_palavra();
+
+        void shuffle_words();
  
 };
 

@@ -10,13 +10,13 @@ char chute;
 
 int indx;
 
-std::vector< std::pair<std::string, int> > pairs; //<! palavras e sua ocorrência no Corpus
+std::vector< std::pair<std::string, int> > pairs; 
 
-Level lvl; //<! dificuldade do jogo
+Level lvl; 
 
-std::string palavra_atual; //<! palavra sendo testada atualmente
+std::string palavra_atual; 
 
-int tentativas_restantes; //<! tentativas restantes
+int tentativas_restantes; 
 
 bool n_ganhou = true;
 
@@ -32,15 +32,6 @@ std::vector< std::pair<std::string, int> > pairs_hard;
 
 std::vector< std::pair<std::string, int> > game_on_words;
 
-/**
- * Cria a classe Forca
- * O construtor pode ou não validar os arquivos de entrada, no entanto, mesmo com 
- * os arquivos inválidos o objeto deve ser construído. Para o caso de arquivos de palavras
- * ou scores inválidos, use o método eh_valido.
- * @param palavras o arquivo que contém as palavras
- * @param scores o nome do arquivo que contém os scores
- * @see eh_valido
- */
 
 Forca::Forca(std::vector< std::pair<std::string, int> > p)
 {
@@ -52,13 +43,7 @@ Forca::Forca(std::vector< std::pair<std::string, int> > p)
     pairs = p;
 }
 
-/**
- * Modifica a dificuldade do jogo.
- * De acordo com a dificuldade configurada, o método proxima_palavra retornará palavras
- * diferentes.
- * @param d a dificuldade desejada
- * @see proxima_palavra
- */
+
 void Forca::setLevel(int d)
 {
     if(d == 1)
@@ -113,14 +98,13 @@ void Forca::setLevel(int d)
     }
 }
 
+void Forca::shuffle_words()
+{
+    auto rng = std::default_random_engine {};
+    std::shuffle(std::begin(game_on_words), std::end(game_on_words), rng);
+}
 
-/**
- * Retorna a próxima palavra de acordo com a dificuldade atual.
- * Este método deve atualizar o atributo m_palavra_atual e retornar a palavra um texto no formato
- * "_ _ _ _ ... _" dependendo do tamanho de m_palavra_atual. O método também deve sortear as 
- * letras que devem aparecer dependendo do nível de dificuldade.
- * @return a próxima palavra do conjunto de palavras disponível de acordo com a dificuldade atual.
- */
+
 void Forca::status_palavra()
 {   
     for(char chute : palavra_atual)
@@ -136,15 +120,24 @@ void Forca::status_palavra()
     }
 }
 
+
+void Forca::reset_status_palavra()
+{
+    chutou.clear();
+}
+
+
 void Forca::set_chute(char c)
 {
     chute = c;
 }
 
+
 void Forca::set_palavra_atual(std::string s_pa)
 {
     palavra_atual = s_pa;
 }
+
 
 bool Forca::verifica_palavra()
 {
@@ -161,10 +154,6 @@ bool Forca::verifica_palavra()
 }
 
 
-/**
- * Retorna a palavra atual que está sendo jogada.
- * @return o valor do atributo m_palavra_atual.
- */
 std::string Forca::get_palavra_atual(int index)
 {   
     indx = index;
@@ -172,39 +161,26 @@ std::string Forca::get_palavra_atual(int index)
     return p_a;
 }
 
-/**
- * Testa se uma letra pertence á palavra atual, retorna T se a letra pertence.
- * Este método testa se uma letra pertence à palavra atual e retorna True caso pertença. 
- * Caso contrário, o método deve atualizar o atributo m_tentativas_restantes, decrementando 
- * em 1, e retornar False.
- * @param palpite uma letra, que deve ser testada se pertence à palavra.
- * @return T se a palpite pertence à palavra, F caso contrário.
- */
-bool palpite(std::string palpite);
-/**
- * Atualiza o número de tentativas restantes.
- * Este método é útil no caso do jogador escolher continuar o jogo.
- * @param tentativas atualiza o valor da variável m_tentativas_restantes.
- */
+
 void Forca::update_tentativas()
 {   
     tentativas_restantes--;
     std::cout<<"atualizando tentativas, agora restam: "<<tentativas_restantes<<std::endl;
 }
+
+
 int Forca::status_tentativas()
 {
     return tentativas_restantes;
 }
+
 
 void Forca::reset_tentativas()
 {
     tentativas_restantes = 6;
 }
 
-/**
- * Retorna a quantidade de tentativas restantes.
- * @return a quantidade de tentativas restantes.
- */
+
 int Forca::get_tentativas_restantes()
 {   
     tentativas_restantes--;
@@ -220,7 +196,7 @@ bool Forca::nao_ganhou()
         return true;
       }
     }
-    std::cout<<"Parabéns, você ganhou!"<<std::endl;
+    std::cout<<"Parabéns, palavra decifrada!"<<std::endl;
     std::cout<<"   ___________"<<std::endl;    
     std::cout<<"  '._==_==_=_.'"<<std::endl;     
     std::cout<<"  .-\\:      /-. "<<std::endl;   
@@ -256,7 +232,8 @@ bool Forca::nao_enforcou()
 }
 
 bool Forca::update_n_enforcou()
-{
+{   
+    tentativas_restantes = 6;
     n_enforcou = true;
     return true;
 }

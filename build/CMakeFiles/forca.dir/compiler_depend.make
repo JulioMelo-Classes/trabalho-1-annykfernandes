@@ -468,7 +468,55 @@ CMakeFiles/forca.dir/src/Forca.cpp.o: ../src/Forca.cpp \
   /usr/include/c++/11.1.0/bits/uses_allocator.h \
   /usr/include/c++/11.1.0/bits/invoke.h \
   /usr/include/c++/11.1.0/bits/stl_multimap.h \
-  /usr/include/c++/11.1.0/bits/erase_if.h
+  /usr/include/c++/11.1.0/bits/erase_if.h \
+  /usr/include/c++/11.1.0/algorithm \
+  /usr/include/c++/11.1.0/bits/stl_algo.h \
+  /usr/include/c++/11.1.0/bits/algorithmfwd.h \
+  /usr/include/c++/11.1.0/bits/stl_heap.h \
+  /usr/include/c++/11.1.0/bits/stl_tempbuf.h \
+  /usr/include/c++/11.1.0/bits/uniform_int_dist.h \
+  /usr/include/c++/11.1.0/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11.1.0/functional \
+  /usr/include/c++/11.1.0/bits/refwrap.h \
+  /usr/include/c++/11.1.0/bits/std_function.h \
+  /usr/include/c++/11.1.0/unordered_map \
+  /usr/include/c++/11.1.0/bits/hashtable.h \
+  /usr/include/c++/11.1.0/bits/hashtable_policy.h \
+  /usr/include/c++/11.1.0/bits/unordered_map.h \
+  /usr/include/c++/11.1.0/pstl/execution_defs.h \
+  /usr/include/c++/11.1.0/random \
+  /usr/include/c++/11.1.0/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11.1.0/bits/specfun.h \
+  /usr/include/c++/11.1.0/limits \
+  /usr/include/c++/11.1.0/tr1/gamma.tcc \
+  /usr/include/c++/11.1.0/tr1/special_function_util.h \
+  /usr/include/c++/11.1.0/tr1/bessel_function.tcc \
+  /usr/include/c++/11.1.0/tr1/beta_function.tcc \
+  /usr/include/c++/11.1.0/tr1/ell_integral.tcc \
+  /usr/include/c++/11.1.0/tr1/exp_integral.tcc \
+  /usr/include/c++/11.1.0/tr1/hypergeometric.tcc \
+  /usr/include/c++/11.1.0/tr1/legendre_function.tcc \
+  /usr/include/c++/11.1.0/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11.1.0/tr1/poly_hermite.tcc \
+  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11.1.0/bits/random.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/11.1.0/bits/random.tcc \
+  /usr/include/c++/11.1.0/numeric \
+  /usr/include/c++/11.1.0/bits/stl_numeric.h \
+  /usr/include/c++/11.1.0/bit \
+  /usr/include/c++/11.1.0/pstl/glue_numeric_defs.h
 
 CMakeFiles/forca.dir/src/Player.cpp.o: ../src/Player.cpp \
   /usr/include/stdc-predef.h \
@@ -658,7 +706,35 @@ CMakeFiles/forca.dir/src/Player.cpp.o: ../src/Player.cpp \
   /usr/include/c++/11.1.0/bits/codecvt.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h \
-  /usr/include/c++/11.1.0/bits/fstream.tcc
+  /usr/include/c++/11.1.0/bits/fstream.tcc \
+  /usr/include/c++/11.1.0/algorithm \
+  /usr/include/c++/11.1.0/utility \
+  /usr/include/c++/11.1.0/bits/stl_relops.h \
+  /usr/include/c++/11.1.0/bits/stl_algo.h \
+  /usr/include/c++/11.1.0/bits/algorithmfwd.h \
+  /usr/include/c++/11.1.0/bits/stl_heap.h \
+  /usr/include/c++/11.1.0/bits/stl_tempbuf.h \
+  /usr/include/c++/11.1.0/bits/uniform_int_dist.h \
+  /usr/include/c++/11.1.0/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11.1.0/functional \
+  /usr/include/c++/11.1.0/tuple \
+  /usr/include/c++/11.1.0/array \
+  /usr/include/c++/11.1.0/bits/uses_allocator.h \
+  /usr/include/c++/11.1.0/bits/invoke.h \
+  /usr/include/c++/11.1.0/bits/refwrap.h \
+  /usr/include/c++/11.1.0/bits/std_function.h \
+  /usr/include/c++/11.1.0/unordered_map \
+  /usr/include/c++/11.1.0/ext/aligned_buffer.h \
+  /usr/include/c++/11.1.0/bits/hashtable.h \
+  /usr/include/c++/11.1.0/bits/hashtable_policy.h \
+  /usr/include/c++/11.1.0/bits/node_handle.h \
+  /usr/include/c++/11.1.0/bits/unordered_map.h \
+  /usr/include/c++/11.1.0/bits/erase_if.h \
+  /usr/include/c++/11.1.0/pstl/execution_defs.h \
+  /usr/include/c++/11.1.0/sstream \
+  /usr/include/c++/11.1.0/bits/sstream.tcc \
+  /usr/include/c++/11.1.0/iterator \
+  /usr/include/c++/11.1.0/bits/stream_iterator.h
 
 CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -926,7 +1002,39 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11.1.0/bits/regex_executor.h \
   /usr/include/c++/11.1.0/bits/regex_executor.tcc \
   ../include/Player.hpp \
-  ../include/Forca.hpp
+  ../include/Forca.hpp \
+  /usr/include/c++/11.1.0/random \
+  /usr/include/c++/11.1.0/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/11.1.0/bits/specfun.h \
+  /usr/include/c++/11.1.0/limits \
+  /usr/include/c++/11.1.0/tr1/gamma.tcc \
+  /usr/include/c++/11.1.0/tr1/special_function_util.h \
+  /usr/include/c++/11.1.0/tr1/bessel_function.tcc \
+  /usr/include/c++/11.1.0/tr1/beta_function.tcc \
+  /usr/include/c++/11.1.0/tr1/ell_integral.tcc \
+  /usr/include/c++/11.1.0/tr1/exp_integral.tcc \
+  /usr/include/c++/11.1.0/tr1/hypergeometric.tcc \
+  /usr/include/c++/11.1.0/tr1/legendre_function.tcc \
+  /usr/include/c++/11.1.0/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11.1.0/tr1/poly_hermite.tcc \
+  /usr/include/c++/11.1.0/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11.1.0/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11.1.0/bits/random.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/opt_random.h \
+  /usr/include/c++/11.1.0/bits/random.tcc \
+  /usr/include/c++/11.1.0/numeric \
+  /usr/include/c++/11.1.0/bits/stl_numeric.h \
+  /usr/include/c++/11.1.0/pstl/glue_numeric_defs.h
 
 
 ../src/main.cpp:
@@ -934,6 +1042,56 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 ../include/Player.hpp:
 
 ../src/Player.cpp:
+
+/usr/include/c++/11.1.0/bits/random.tcc:
+
+/usr/include/c++/11.1.0/bits/random.h:
+
+/usr/include/c++/11.1.0/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11.1.0/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11.1.0/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11.1.0/tr1/legendre_function.tcc:
+
+/usr/include/c++/11.1.0/tr1/hypergeometric.tcc:
+
+/usr/include/c++/11.1.0/tr1/exp_integral.tcc:
+
+/usr/include/c++/11.1.0/tr1/ell_integral.tcc:
+
+/usr/include/c++/11.1.0/tr1/beta_function.tcc:
+
+/usr/include/c++/11.1.0/numeric:
+
+/usr/include/c++/11.1.0/tr1/special_function_util.h:
+
+/usr/include/c++/11.1.0/tr1/gamma.tcc:
+
+/usr/include/c++/11.1.0/limits:
+
+/usr/include/c++/11.1.0/bits/specfun.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11.1.0/cmath:
+
+/usr/include/c++/11.1.0/random:
 
 ../src/Forca.cpp:
 
@@ -952,6 +1110,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11.1.0/bits/range_access.h:
 
 /usr/include/c++/11.1.0/bits/ostream_insert.h:
+
+/usr/include/c++/11.1.0/tr1/bessel_function.tcc:
 
 /usr/include/c++/11.1.0/ext/new_allocator.h:
 
@@ -986,6 +1146,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/c++/11.1.0/bits/stl_numeric.h:
 
 /usr/include/c++/11.1.0/bits/stl_multimap.h:
 
@@ -1095,6 +1257,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/bits/floatn-common.h:
 
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/opt_random.h:
+
 /usr/include/c++/11.1.0/bitset:
 
 /usr/include/c++/11.1.0/ext/numeric_traits.h:
@@ -1173,6 +1337,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11.1.0/bits/cpp_type_traits.h:
 
+/usr/include/bits/fp-fast.h:
+
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
@@ -1225,6 +1391,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11.1.0/bit:
 
+/usr/include/c++/11.1.0/tr1/poly_laguerre.tcc:
+
 /usr/include/bits/endian.h:
 
 /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h:
@@ -1255,6 +1423,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11.1.0/bits/fstream.tcc:
 
+/usr/include/c++/11.1.0/pstl/glue_numeric_defs.h:
+
 /usr/include/c++/11.1.0/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/11.1.0/streambuf:
@@ -1270,6 +1440,8 @@ CMakeFiles/forca.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11.1.0/bits/ptr_traits.h:
 
 /usr/include/c++/11.1.0/bits/hashtable.h:
+
+/usr/include/bits/flt-eval-method.h:
 
 /usr/include/c++/11.1.0/stdexcept:
 
