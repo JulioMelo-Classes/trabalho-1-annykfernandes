@@ -1,3 +1,3 @@
-/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/rebuild_cache.dir
-/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/edit_cache.dir
-/home/anny/Documentos/dev/lp/trabalho-1-annykfernandes/build/CMakeFiles/forca.dir
+/home/julio/lp1/2021.2/trabalho1/trabalho-1-annykfernandes/build/CMakeFiles/rebuild_cache.dir
+/home/julio/lp1/2021.2/trabalho1/trabalho-1-annykfernandes/build/CMakeFiles/edit_cache.dir
+/home/julio/lp1/2021.2/trabalho1/trabalho-1-annykfernandes/build/CMakeFiles/forca.dir
